@@ -1,0 +1,48 @@
+# Jekyll Configuration
+title: "Cameron Warren - Open Source Contributions"
+description: "Showcase of contributions to major ML/AI frameworks"
+url: "https://cwarre33.github.io"
+repository: "cwarre33/cwarre33.github.io"
+
+# Build settings
+theme: null
+markdown: kramdown
+
+# Author Information
+author:
+  name: Cameron Warren
+  email: cwarre33@charlotte.edu
+  github: cwarre33
+
+# Collections
+collections:
+  contributions:
+    output: true
+    permalink: /contributions/:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Permalink
+permalink: /:title/
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-github-metadata
+
+# Analytics (optional - add your own tracking ID)
+analytics_id: null
+
+# Social Links
+social_links:
+  github: cwarre33
+  linkedin: cameron-warren
+  twitter: null
+
+# Footer
+footer: "Made with ❤️ by Cameron Warren | Open Source Contributor"
